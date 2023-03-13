@@ -1,0 +1,20 @@
+{
+  "name": "upload-daily-nyt-crossword-to-dropbox",
+  "description": "Uploads the daily NYT crossword to Dropbox so that it can be synced with e-ink devices, like the Ratta Supernote.",
+  "version": "1.0.0",
+  "license": "CC-BY-NC-SA-4.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "author": {
+    "name": "Nathan Buchar",
+    "email": "hello@nathanbuchar.com",
+    "url": "https://n8.engineer"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "dropbox": "^10.23.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.3.1"
+  }
+}
